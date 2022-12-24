@@ -6,7 +6,7 @@ This is my personal [`hadoop-3.3.4`](https://archive.apache.org/dist/hadoop/comm
 
 The aim for this image is to provide a base for building a hadoop cluster. After start-up, a ssh deamon will be launched automatically.
 
-Please check the [Dockerfile](https://) for details.
+Please check the [Dockerfile](https://github.com/zhaolj/hadoop_docker/blob/main/docker/Dockerfile) for details.
 
 ## Use as a single node
 
