@@ -8,6 +8,8 @@ The aim for this image is to provide a base for building a hadoop cluster. After
 
 Please check the [Dockerfile](https://github.com/zhaolj/hadoop_docker/blob/main/docker/Dockerfile) for details.
 
+All the soruce code could be found in [github.com/zhaolj/hadoop_docker](https://github.com/zhaolj/hadoop_docker).
+
 ## Use as a single node
 
 1. start a single node
@@ -29,6 +31,7 @@ Please check the [Dockerfile](https://github.com/zhaolj/hadoop_docker/blob/main/
     ```
 
     ![check ip](./imgs/check_ip.png "check ip")
+
     As example above, the ip is `172.17.0.2`.
 1. config
     Go to the hadoop configuration files directory: `/opt/hadoop/etc/hadoop`.
@@ -77,6 +80,7 @@ Please check the [Dockerfile](https://github.com/zhaolj/hadoop_docker/blob/main/
 ## Use as a cluster
 
 We are going to build a hadoop cluster with 1 `NameNode` and 2 `DataNode`s
+
 ![cluster](./imgs/hdfs-cluster-1.png "cluster")
 
 We can use another pre-configed images: [zhaolj/hadoop-cluster](https://hub.docker.com/r/zhaolj/hadoop-cluster) to quick start.
