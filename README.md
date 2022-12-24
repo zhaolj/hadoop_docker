@@ -91,9 +91,7 @@ We can use another pre-configed images: [zhaolj/hadoop-cluster](https://hub.dock
 
     ```shell
     docker run -d -p10122:22 -p19870:9870 --name=nn --hostname=nn --network=hnet --ip=172.20.1.1 --add-host=dn1:172.20.1.2 --add-host=dn2:172.20.1.3 --privileged zhaolj/hadoop-cluster:latest
-
     docker run -d --name=dn1 --hostname=dn1 --network=hnet --ip=172.20.1.2 --add-host=nn:172.20.1.1 --add-host=dn2:172.20.1.3 --privileged zhaolj/hadoop-cluster:latest
-
     docker run -d --name=dn2 --hostname=dn2 --network=hnet --ip=172.20.1.3 --add-host=nn:172.20.1.1 --add-host=dn1:172.20.1.2 --privileged zhaolj/hadoop-cluster:latest
     ```
 
