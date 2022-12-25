@@ -4,7 +4,7 @@
 
 This is my personal [`hadoop-3.3.4`](https://archive.apache.org/dist/hadoop/common/hadoop-3.3.4/hadoop-3.3.4.tar.gz) docker images based on `ubuntu:latest` (latest = [22.04 jammy](https://git.launchpad.net/cloud-images/+oci/ubuntu-base/tree/Dockerfile?h=refs/tags/dist-jammy-amd64-20221130&id=5107d90663ceb24789a9fa19136b0753c5651aa0) when building this image).
 
-The aim for this image is to provide a base for building a hadoop cluster. After start-up, a ssh deamon will be launched automatically.
+The aim for this image is to provide a base for building a hadoop cluster. After start-up, a ssh deamon will be launched automatically. All the information about the experimental hadoop cluster enverionment, please refer to this [hadoop tutorial in Chinese](https://www.runoob.com/w3cnote/hadoop-tutorial.html).
 
 Please check the [Dockerfile](https://github.com/zhaolj/hadoop_docker/blob/main/docker/Dockerfile) for details.
 
